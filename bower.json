@@ -1,0 +1,23 @@
+{
+  "name": "computerroom",
+  "authors": [
+    "Patrick Leahy <tenebrousedge@gmail.com>"
+  ],
+  "description": "an interactive computer room",
+  "main": "index.html",
+  "keywords": [
+    "jslinux"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tenebrousedge/computerroom",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  "jslinux": "https://github.com/levskaya/jslinux-deobfuscated.git"
+  }
+}
