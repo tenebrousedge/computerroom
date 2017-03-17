@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <head>
 	<title>A quiet computer room...</title>
-</head>
-<body onload="start()">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="js/PCEmulator.js"></script>
 	<script type="text/javascript" src="js/PIC.js"></script>
 	<script type="text/javascript" src="js/PIT.js"></script>
@@ -14,13 +17,14 @@
 	<script type="text/javascript" src="js/term.js"></script>
 	<script type="text/javascript" src="js/cpux86-ta.js"></script>
 	<script type="text/javascript" src="js/jslinux.js"></script>
-	
+</head>
+<body onload="start()">
 	<div>
 	<input value="Clear clipboard" onclick="clear_clipboard();" type="button"><textarea row="4" cols="16" id="text_clipboard"></textarea>
 	</div>
-	<div id="main" class="container">
-		<a href="#" id="light" class="col-sm-1"></a>
-		<a href="#" id="poweron" class="col-sm-1" onclick="start()"></a>
+	<div id="main" >
+		<a href="#" id="light" ></a>
+		<a href="#" id="poweron" onclick="start()"></a>
 	<div id="credits">
 		<a target="_blank" href="https://www.vexels.com/vectors/preview/70745/desktop-pc-vector"> Desktop PC vector </a> | Free vector by <a target="_blank" href="https://www.vexels.com/">Free Vector</a>
 		<div id="copyright">© 2011-2015 Fabrice Bellard, author has licensed software for noncommercial use.</div>

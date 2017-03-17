@@ -1,0 +1,9 @@
+#main {
+	background-image: url('../img/cpu.png');
+}
+body table {
+	width:100%;
+	display:inline-block;
+	background-image:url('../img/cpu.png');
+	background-size: cover;
+}
