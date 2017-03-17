@@ -7,3 +7,24 @@ body table {
 	background-image:url('../img/cpu.png');
 	background-size: cover;
 }
+
+.term {
+    font-family: courier,fixed,swiss,monospace,sans-serif;
+    font-size: 14px;
+    color: #f0f0f0;
+    background: #000000;
+}
+
+.termReverse {
+    color: #000000;
+    background: #00ff00;
+}
+#note {
+    font-size: 12px;
+}
+#copyright {
+    font-size: 10px;
+}
+#clipboard {
+    font-size: 12px;
+}
